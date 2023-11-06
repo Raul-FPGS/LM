@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 20</title>
+</head>
+<body>
+    <h2>Informacion sobre el producto</h2>
+    <form action="peticion.php" name="form4" id="form4" method="post">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <p>Nombre</p>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <p>Descripcion</p>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            <p>Foto <input type="text" name="foto" id="foto"> <input type="file" name="archivo" id="archivo"></p>
+            <label for="contador"><input type="checkbox" name="contador" id="contador">Añadir contador de visitas</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos economicos</legend>
+            <label for="precio">Precio <input name="precio" id="precio" type="number">€</label>
+            <label for="impuesto">Impuestos</label>
+            <select name="impuesto" id="impuesto">
+                <option value="4">4%</option>
+                <option value="7">7%</option>
+                <option value="16">16%</option>
+                <option value="21">21%</option>
+            </select><br>
+            <label for="promocion">Promoción</label><br>
+            <p><input type="radio" name="promocion" id="ninguno">Ninguno</p>
+            <p><input type="radio" name="promocion" id="transporte">Transporte gratuito</p>
+            <p><input type="radio" name="promocion" id="descuento">Descuento 5%</p>
+            
+        </fieldset>
+    </form>
+
+</body>
+</html>

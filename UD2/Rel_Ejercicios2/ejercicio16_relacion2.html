@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form action="cv.php" method="post" id="form1" name="form1" >
+        <p>Nombre</p>
+        <input type="text" name="nombre" id="nombre">
+        <p>Apellidos</p>
+        <input type="text" name="apellidos" id="apellidos">
+        <p>Contraseña</p>
+        <input type="password" name="password" id="password">
+        <p>DNI</p>
+        <input type="text" name="dni" id="dni" maxlength="9">
+        <p>Sexo</p>
+        <label for="hombre"><input type="radio" name="Sexo" id="hombre" checked>Hombre</label>
+        <label for="mujer"><input type="radio" name="Sexo" id="mujer">Mujer</label>
+        <p>Incluir mi foto</p>
+        <input type="file" name="foto" id="foto">
+        <p><input checked type="checkbox" name="subscribirse" id="subscribirse">Subscribirme al boletin de novedades</p>
+        <input type="submit" value="Guardar cambios">
+        <input type="reset" value="Borrar los datos">
+    </form>
+</body>
+</html>

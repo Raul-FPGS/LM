@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 19</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form action="datoscv.php" id="form3" name="form3" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="provincia">Provincia</label><br>
+            <select name="provincia" id="provincia">
+                <option value="">- Selecciona -</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="malaga">Málaga</option>
+                <option value="jaen">Jaen</option>
+                <option value="granada">Granada</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="almeria">Almeria</option>
+                <option value="huelva">Huelva</option>
+            </select><br>
+            <label for="nacimiento">Fecha de nacimiento</label><br>
+            <input type="number" name="dia" id="dia">
+            <span>de</span>
+            <select name="mes" id="mes">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+            <span>de</span>
+            <input type="number" name="año" id="año"><br>
+            <label for="tema">Temas de Interes</label><br>
+            <select name="tema" id="tema" size="4">
+                <option value="administracion_bd">Administracion de base de datos</option>
+                <option value="analisisyprogramacion">Analisis y Programacion</option>
+                <option value="arquitectura">Arquitectura</option>
+                <option value="calidad">Calidad</option>
+                <option value="formacionlaboral">Formacion y Orientacion laboral</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
