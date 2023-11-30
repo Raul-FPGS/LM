@@ -1,0 +1,14 @@
+body {
+    /*Pregunta a*/
+    background-color: rgba(248, 225, 95, 0.788);
+    /*Pregunta b*/
+    background-image: url(../imagenes/imagen.png);
+    background-repeat: repeat-y;
+    /*Pregunta c*/
+    background-position: center;
+    /*Pregunta d*/
+    background-attachment: fixed;
+    /*Pregunta e*/
+    background-image: url(../imagenes/paisaje.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    font-family: arial;
+}
+
+p {
+    color: #555;
+}
+
+p#primero {
+    color: #336699;
+}
+
+a {
+    color: #cc3300;
+}
+
+/*La id primero esta ya usada, no pueden haber 2 id con el mismo nombre*/
+em#primero2 {
+    background: #FFFFCC;
+    padding: .1em;
+}
+
+em.especial {
+    background: #FFCC99;
+    border: 1px solid #FF9900;
+    padding: .1em;
+}
+
