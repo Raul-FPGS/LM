@@ -1,0 +1,16 @@
+body {
+    background-color: violet;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    background-color: white;
+    border: green 1px dotted;
+    margin: 30px auto 20px auto;
+}
+
+img {
+    padding: 50px;
+    margin: 0 10px;
+}

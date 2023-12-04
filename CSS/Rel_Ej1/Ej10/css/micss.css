@@ -1,0 +1,29 @@
+th {
+    background-color: #A7C942;
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color:#EAF2D3;
+}
+
+table {
+    border-spacing: 0;
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td, th {
+    padding: 5px;
+    min-width: 100px;
+    border: #A7C942 1px solid;
+}
+
+caption {
+    caption-side: bottom;
+    margin: 10px;
+}
+
+tbody tr:hover {
+    background-color: pink;
+}
