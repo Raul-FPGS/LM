@@ -1,0 +1,56 @@
+:root {
+    --color-sombra: #006680;
+    --color-caja: #B4F0FF;
+}
+
+.caja {
+    width: 400px;
+    height: 50px;
+    background-color: var(--color-caja);
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contenedor {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor:nth-of-type(1) .caja:nth-of-type(1) {
+    box-shadow: -6px -6px 0px -2px var(--color-sombra);
+}
+.contenedor:nth-of-type(1) .caja:nth-of-type(2) {
+    box-shadow: -6px -6px 5px -2px var(--color-sombra);
+}
+.contenedor:nth-of-type(1) .caja:nth-of-type(3) {
+    box-shadow: -3px -3px 0px 3px var(--color-sombra);
+}
+.contenedor:nth-of-type(1) .caja:nth-of-type(4) {
+    box-shadow: -3px -3px 5px 3px var(--color-sombra);
+}
+.contenedor:nth-of-type(1) .caja:nth-of-type(5) {
+    box-shadow: 0px 0px 8px 1px var(--color-sombra);
+}
+.contenedor:nth-of-type(1) .caja:nth-of-type(6) {
+    box-shadow: 0px 0px 0px 2px var(--color-sombra);
+}
+.contenedor:nth-of-type(2) .caja:nth-of-type(1) {
+    box-shadow: 6px 6px 0px -2px var(--color-sombra);
+}
+.contenedor:nth-of-type(2) .caja:nth-of-type(2) {
+    box-shadow: 6px 6px 5px -2px var(--color-sombra);
+}
+.contenedor:nth-of-type(2) .caja:nth-of-type(3) {
+    box-shadow: 3px 3px 0px 3px var(--color-sombra);
+}
+.contenedor:nth-of-type(2) .caja:nth-of-type(4) {
+    box-shadow: 3px 3px 5px 3px var(--color-sombra);
+}
+.contenedor:nth-of-type(2) .caja:nth-of-type(5) {
+    box-shadow: 0px 0px 8px 1px var(--color-sombra);
+}
+.contenedor:nth-of-type(2) .caja:nth-of-type(6) {
+    box-shadow: 0px 0px 0px 2px var(--color-sombra);
+}
