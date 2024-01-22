@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+
+:root {
+    --gradiente: to right, green, blue;
+    --gradienteinverso: to left, green, blue;
+}
+
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
@@ -10,27 +19,43 @@ header, footer {
 
 header {
     background: linear-gradient(
-        to right, green, blue
+        var(--gradiente)
     );
 }
 
 footer {
     background: linear-gradient(
-        to left,green, blue
+        var(--gradienteinverso)
     );
 }
+
+#titulo {
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: encabezado;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes encabezado {
+    from {
+      letter-spacing: 50px;
+    }
+  
+    to {
+      letter-spacing: 0px;
+    }
+  }
+  
 
 #contenedor-principal {
     min-width: 1024px;
     max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .caja {
     width: 25%;
     height: 250px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 .caja p {
@@ -43,7 +68,7 @@ footer {
 
 .caja p:hover {
     text-overflow: initial;
-    overflow: visible;
+    overflow:initial;
     white-space: wrap;
     height: 50%;
 }
@@ -55,4 +80,21 @@ footer {
 
 .caja img:hover {
     opacity: 100%;
+}
+
+.caja:last-child img:hover {
+    animation-duration: 2s;
+    animation-name: rotacion;
+}
+
+@keyframes rotacion {
+    from {
+        transform: rotate(360deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
