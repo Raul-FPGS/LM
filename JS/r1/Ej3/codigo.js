@@ -1,0 +1,1 @@
+alert("Esta alerta esta desde otro archivo JS")
