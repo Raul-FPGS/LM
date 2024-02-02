@@ -1,0 +1,2 @@
+Comando pa crear carpetas (to epico)
+cp -r JS/r3/e/ JS/r3/e"$i"
