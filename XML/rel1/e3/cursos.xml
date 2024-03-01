@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+    <curso id="1">
+        <nombre>Primero</nombre>
+        <duracion>200</duracion>
+        <descripcion>Primer curso</descripcion>
+        <becas />
+        <aula informatica="si">
+            <planta>1</planta>
+            <numero>4</numero>
+        </aula>
+        <precio>
+            <nuevos>200</nuevos>
+            <antiguos>100</antiguos>
+        </precio>
+        <semanas>
+            <semana horario="mañana">
+                <inicio>05/03/2024</inicio>
+                <fin>12/03/2024</fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>12/03/2024</inicio>
+                <fin>19/03/2024</fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>19/03/2024</inicio>
+                <fin>26/03/2024</fin>
+            </semana>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Antonio</nombre>
+                <apellidos>Jimenez</apellidos>
+            </profesor>
+            <profesor tipo="practicas">
+                <nombre>Juan</nombre>
+                <apellidos>Perez</apellidos>
+            </profesor>
+        </profesores>
+        <temas>
+            <tema>
+                <titulo>Introducción</titulo>
+                <resumen>La introducción</resumen>
+                <palabras_clave>Introducción</palabras_clave>
+                <ejecicicos>
+                    <practicos>
+                        <cantidad>10</cantidad>
+                        <duracion>20</duracion>
+                    </practicos>
+                    <teoricos>
+                        <cantidad>5</cantidad>
+                        <duracion>15</duracion>
+                    </teoricos>
+                </ejecicicos>
+            </tema>
+            <tema>
+                <titulo>Tema 1</titulo>
+                <resumen>Las celulas procariotas</resumen>
+                <palabras_clave>celulas</palabras_clave>
+                <ejecicicos>
+                    <practicos>
+                        <cantidad>10</cantidad>
+                        <duracion>20</duracion>
+                    </practicos>
+                    <teoricos>
+                        <cantidad>5</cantidad>
+                        <duracion>15</duracion>
+                    </teoricos>
+                </ejecicicos>
+            </tema>
+        </temas>
+    </curso>
+    <curso id="2">
+        <nombre>Segundo</nombre>
+        <duracion>200</duracion>
+        <descripcion>Segundo curso</descripcion>
+        <becas />
+        <aula informatica="si">
+            <planta>1</planta>
+            <numero>4</numero>
+        </aula>
+        <precio>
+            <nuevos>200</nuevos>
+            <antiguos>100</antiguos>
+        </precio>
+        <semanas>
+            <semana horario="mañana">
+                <inicio>05/03/2024</inicio>
+                <fin>12/03/2024</fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>12/03/2024</inicio>
+                <fin>19/03/2024</fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>19/03/2024</inicio>
+                <fin>26/03/2024</fin>
+            </semana>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Antonio</nombre>
+                <apellidos>Jimenez</apellidos>
+            </profesor>
+            <profesor tipo="practicas">
+                <nombre>Juan</nombre>
+                <apellidos>Perez</apellidos>
+            </profesor>
+        </profesores>
+        <temas>
+            <tema>
+                <titulo>Introducción</titulo>
+                <resumen>La introducción</resumen>
+                <palabras_clave>Introducción</palabras_clave>
+                <ejecicicos>
+                    <practicos>
+                        <cantidad>10</cantidad>
+                        <duracion>20</duracion>
+                    </practicos>
+                    <teoricos>
+                        <cantidad>5</cantidad>
+                        <duracion>15</duracion>
+                    </teoricos>
+                </ejecicicos>
+            </tema>
+            <tema>
+                <titulo>Tema 1</titulo>
+                <resumen>Las celulas procariotas</resumen>
+                <palabras_clave>celulas</palabras_clave>
+                <ejecicicos>
+                    <practicos>
+                        <cantidad>10</cantidad>
+                        <duracion>20</duracion>
+                    </practicos>
+                    <teoricos>
+                        <cantidad>5</cantidad>
+                        <duracion>15</duracion>
+                    </teoricos>
+                </ejecicicos>
+            </tema>
+        </temas>
+    </curso>
+    <curso id="3">
+        <nombre>Tercero</nombre>
+        <duracion>300</duracion>
+        <descripcion>Tercer curso</descripcion>
+        <becas />
+        <aula informatica="si">
+            <planta>1</planta>
+            <numero>4</numero>
+        </aula>
+        <precio>
+            <nuevos>300</nuevos>
+            <antiguos>100</antiguos>
+        </precio>
+        <semanas>
+            <semana horario="mañana">
+                <inicio>05/03/2024</inicio>
+                <fin>12/03/2024</fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>12/03/2024</inicio>
+                <fin>19/03/2024</fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>19/03/2024</inicio>
+                <fin>26/03/2024</fin>
+            </semana>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Antonio</nombre>
+                <apellidos>Jimenez</apellidos>
+            </profesor>
+            <profesor tipo="practicas">
+                <nombre>Juan</nombre>
+                <apellidos>Perez</apellidos>
+            </profesor>
+        </profesores>
+        <temas>
+            <tema>
+                <titulo>Introducción</titulo>
+                <resumen>La introducción</resumen>
+                <palabras_clave>Introducción</palabras_clave>
+                <ejecicicos>
+                    <practicos>
+                        <cantidad>10</cantidad>
+                        <duracion>20</duracion>
+                    </practicos>
+                    <teoricos>
+                        <cantidad>5</cantidad>
+                        <duracion>15</duracion>
+                    </teoricos>
+                </ejecicicos>
+            </tema>
+            <tema>
+                <titulo>Tema 1</titulo>
+                <resumen>Las celulas procariotas</resumen>
+                <palabras_clave>celulas</palabras_clave>
+                <ejecicicos>
+                    <practicos>
+                        <cantidad>10</cantidad>
+                        <duracion>20</duracion>
+                    </practicos>
+                    <teoricos>
+                        <cantidad>5</cantidad>
+                        <duracion>15</duracion>
+                    </teoricos>
+                </ejecicicos>
+            </tema>
+        </temas>
+    </curso>
+</cursos>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="" onsubmit="return validarFormulario()" method="post">
+        <p>Nombre: <input type="text" name="nombre" id="nombre"></p>
+        <p>Apellidos: <input type="text" name="apellidos" id="apellidos"></p>
+        <p>Direccion: <input type="text" name="direccion" id="direccion"></p>
+        <p>Comentarios: </p>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="3"></textarea>
+
+        <p>Telefono: <input type="tel" name="telefono" id="telefono"></p>
+        <p>Codigo Postal: <input type="number" name="codidoPostal" id="codigoPostal"></p>
+        <p>Edad: <input type="number" name="edad" id="edad"></p>
+
+        <p>Email: <input type="email" name="email" id="email"></p>
+        
+        <p>Provincia
+        <select name="provincia" id="provincia">
+            <option selected value="">Elegir</option>
+            <option value="alicante">Cadiz</option>
+            <option value="madrid">Madrid</option>
+            <option value="valencia">Valencia</option>
+        </select></p>
+
+        <p>Sexo
+        <select name="sexo" id="sexo">
+            <option value="">Elegir</option>
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+        </select></p>
+
+        <p>Condiciones generales <input type="checkbox" name="condiciones" id="condiciones"></p>
+        <p>Aviso Legal <input type="checkbox" name="avisoLegal" id="avisoLegal"></p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="" onsubmit="return validarFormulario()" method="post">
+        <p>Nombre: <input required type="text" name="nombre" id="nombre"></p>
+        <p>Edad: <input required type="number" name="edad" id="edad"></p>
+        <p>Correo: <input required type="email" name="email" id="email"></p>
+        <p>Fecha: <input required type="date" name="fecha" id="fecha"></p>
+        <p>Selecciona una opcion: <select required name="seleccion" id="seleccion">
+            <option selected value="defecto">Valor por defecto</option>
+            <option value="musica">Musica</option>
+            <option value="deportes">Deportes</option>
+            <option value="viajes">Viajes</option>
+        </select></p>
+        <p>Un checkbox: <input required type="checkbox" name="checkbox" id="checkbox"> <span>Haz clic en mi</span></p>
+        <p>Selecciona una opcion:</p>
+        <input type="radio" name="opcion" id="opcion1" value="boton1"><span>Un boton</span> <br>
+        <input type="radio" name="opcion" id="opcion2" value="boton2"><span>Otro boton</span> <br>
+        <input type="radio" name="opcion" id="opcion3" value="boton3"><span>Mas boton</span> <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

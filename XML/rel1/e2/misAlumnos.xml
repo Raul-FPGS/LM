@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<aula>
+    <alumnos>
+        <dni>12345678</dni>
+        <nombre>Raul</nombre>
+        <apellidos>Jimenez</apellidos>
+        <sexo>H</sexo>
+        <fechaNacimiento>1990-01-01</fechaNacimiento>
+        <direccion>Calle falsa</direccion>
+        <telefono>fijo</telefono>
+        <media>3.2</media>
+    </alumnos>
+    <alumnos>
+        <dni>12345678</dni>
+        <nombre>Raul</nombre>
+        <apellidos>Jimenez</apellidos>
+        <sexo>H</sexo>
+        <fechaNacimiento>1990-01-01</fechaNacimiento>
+        <direccion>Calle falsa</direccion>
+        <telefono>fijo</telefono>
+        <media>3.2</media>
+    </alumnos>
+    <alumnos>
+        <dni>12345678</dni>
+        <nombre>Raul</nombre>
+        <apellidos>Jimenez</apellidos>
+        <sexo>H</sexo>
+        <fechaNacimiento>1990-01-01</fechaNacimiento>
+        <direccion>Calle falsa</direccion>
+        <telefono>fijo</telefono>
+        <media>3.2</media>
+    </alumnos>
+    <alumnos>
+        <dni>12345678</dni>
+        <nombre>Raul</nombre>
+        <apellidos>Jimenez</apellidos>
+        <sexo>H</sexo>
+        <fechaNacimiento>1990-01-01</fechaNacimiento>
+        <direccion>Calle falsa</direccion>
+        <telefono>fijo</telefono>
+        <media>3.2</media>
+    </alumnos>
+    <alumnos>
+        <dni>12345678</dni>
+        <nombre>Raul</nombre>
+        <apellidos>Jimenez</apellidos>
+        <sexo>H</sexo>
+        <fechaNacimiento>1990-01-01</fechaNacimiento>
+        <direccion>Calle falsa</direccion>
+        <telefono>fijo</telefono>
+        <media>3.2</media>
+    </alumnos>
+</aula>
